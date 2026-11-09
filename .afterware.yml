@@ -1,0 +1,18 @@
+schema_version: 1
+slug: multiple-post-thumbnails
+name: Multiple Post Thumbnails — Afterware
+upstream:
+  source: https://wordpress.org/plugins/multiple-post-thumbnails/
+  last_version: "1.7"
+  branch: upstream
+main_file: multi-post-thumbnails.php
+requires:
+  php: "8.3.28"
+  wp: "6.8.3"
+build:
+  include: []
+  exclude: [tests]
+  js: none
+tests:
+  php: ["8.3.28", "8.3.33", "8.4.27"]
+  wp: ["6.8.3", "7.1", "7.1.4"]

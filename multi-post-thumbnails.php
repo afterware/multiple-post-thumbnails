@@ -1,9 +1,12 @@
 <?php
 /*
-Plugin Name: Multiple Post Thumbnails
+Plugin Name: Multiple Post Thumbnails — Afterware
 Plugin URI: http://wordpress.org/extend/plugins/multiple-post-thumbnails/
+Update URI: https://updates.afterware.io/multiple-post-thumbnails
 Description: Adds the ability to add multiple post thumbnails to a post type.
-Version: 1.7
+Version: 1.7.0.1
+Requires PHP: 8.3.28
+Requires at least: 6.8.3
 Author: Chris Scott
 Author URI: http://iamzed.com/
 */
